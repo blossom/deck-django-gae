@@ -16,7 +16,8 @@
 
 import os
 
-DEBUG = True
+# figure out whether we are in development or production mode
+DEBUG = os.environ.get('SERVER_SOFTWARE', 'Dev').startswith('Dev')
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
