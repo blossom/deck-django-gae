@@ -89,6 +89,8 @@ MIDDLEWARE_CLASSES = (
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
+    'pages.context_processors.debug',
+    'pages.context_processors.facebook_application_id',
 #   'django.core.context_processors.auth',
     'django.core.context_processors.debug',
     'django.core.context_processors.i18n',
