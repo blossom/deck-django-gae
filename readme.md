@@ -18,7 +18,7 @@ a bunch of stuff that is in this repository
 # Setup
 
 * change the 'SECRET_KEY' in settings.py
-* set our own appengine application id in app.yaml
+* set your own appengine application id in app.yaml
 * add facebook configuration to settings.py
 
 # TODO
