@@ -113,3 +113,8 @@ INSTALLED_APPS = (
 #    'django.contrib.sessions',
 #    'django.contrib.sites',
 )
+
+# facebook
+FACEBOOK_APPLICATION_ID = ''
+FACEBOOK_API_KEY = ''
+FACEBOOK_SECRET_KEY = ''
