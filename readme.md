@@ -12,6 +12,7 @@ a bunch of stuff that is in this repository
 * deck module with 26 char uuid generator and JsonProperty for the datastore
 * facebook python sdk (commit 2da0f678f0c0c5a5ddc77b7456dde232e9b98bd9)
 * facebook javascript sdk (loaded async from fb servers)
+* jQuery 1.4.2 (loaded async from google servers)
 * context processors for facebook application id and debug
 
 # Setup
