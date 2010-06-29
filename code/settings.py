@@ -15,6 +15,7 @@
 # Django settings for google-app-engine-django project.
 
 import os
+import sys
 
 # figure out whether we are in development or production mode
 DEBUG = os.environ.get('SERVER_SOFTWARE', 'Dev').startswith('Dev')
@@ -101,6 +102,10 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 ROOT_URLCONF = 'urls'
 
 ROOT_PATH = os.path.dirname(__file__)
+
+# add lib directory to python path
+sys.path.insert(0, ROOT_PATH + '/lib')
+
 TEMPLATE_DIRS = (
     os.path.join(ROOT_PATH, 'templates')
 )
