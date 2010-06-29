@@ -14,6 +14,7 @@ a bunch of stuff that is in this repository
 * facebook javascript sdk (loaded async from fb servers)
 * jQuery 1.4.2 (loaded async from google servers)
 * context processors for facebook application id and debug
+* lib directory for external dependencies inserted into syspath
 
 # Setup
 
