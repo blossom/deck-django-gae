@@ -4,6 +4,10 @@ runtime: python
 api_version: 1
 
 handlers:
+ url: /favicon.ico
+  static_files: static/img/favicon.ico
+  upload: static/img/favicon.ico
+
 - url: /stats.*
   script: $PYTHON_LIB/google/appengine/ext/appstats/ui.py
 
